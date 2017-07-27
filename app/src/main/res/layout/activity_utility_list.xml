@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.orangecoastcollege.cs273.gabyers.grantutilityapp.UtilityListActivity">
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/ic_launcher"
+        android:onClick="addProfilePic"
+        app:srcCompat="@drawable/pie_skull"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+
+    <Button
+        android:id="@+id/voiceNoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startVoiceActivity"
+        android:text="@string/voice_note"
+
+        />
+
+</LinearLayout>

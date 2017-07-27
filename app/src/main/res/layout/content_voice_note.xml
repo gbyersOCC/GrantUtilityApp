@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="15px"
+    android:layout_margin="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.orangecoastcollege.cs273.gabyers.grantutilityapp.VoiceNoteActivity"
+    tools:showIn="@layout/activity_voice_note">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:text="@string/start_recording"/>
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:text="@string/finish_recording"/>
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:text="@string/start_play_back"/>
+
+    <Button
+        android:id="@+id/stopPlayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:text="@string/finish_play_back"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GrantUtilityApp</string>
+    <string name="voice_note">Voice Note</string>
+    <string name="title_activity_voice_note">VoiceNoteActivity</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="finish_recording">Stop Recording</string>
+    <string name="start_play_back">Start Playback</string>
+    <string name="finish_play_back">Stop Payback</string>
+</resources>
